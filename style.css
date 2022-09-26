@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.selamento {
+    position: absolute;
+}
+
+.imgBackgrou {
+    width: 50%;
+    height: 713px;
+    object-fit: fill;
+    border: 1px solid #fff;
+}
+
+
+.imgSelamento {
+    position: fixed;
+    width: 73px;
+    border: 1px solid #000;
+    box-shadow: 2px 3px 7px #000;
+    left: 48%;
+    top: 41%;
+    cursor: pointer;
+}
+
+
+/* bolinhas */
+
+.ball{
+    position: fixed;
+    width: 261px;
+    height: 498px;
+    left: 43.6%;
+    top: 16%;
+}
+
+.ballEffect {
+    position: fixed;
+    width: 261px;
+    height: 498px;
+    left: 43.6%;
+    top: 16%;
+    visibility: hidden;
+}
+
+/* ------------------------ */
+
+/* corrente cima */
+
+.svg3 {
+    position: fixed;
+    width: 3%;
+    left: 50%;
+    top: -9%;
+}
+
+.svg3A {
+    position: fixed;
+    width: 3%;
+    left: 47.2%;
+    top: -9%;
+}
+
+/* ------------------ */
+
+/* corrente baixo */
+
+.svg3B {
+    position: fixed;
+    width: 3%;
+    left: 47.2%;
+    top: 50%;
+}
+
+.svg3C {
+    position: fixed;
+    width: 3%;
+    left: 50%;
+    top: 50%;
+}
+
+/* ------------------- */
+
+/* corrente lado direito */
+
+.svg1 {
+    position: fixed;
+    width: 34%;
+    left: 52%;
+    top: 41%;
+}
+
+
+.svg1A {
+    position: fixed;
+    width: 31%;
+    left: 83%;
+    top: 43%;
+}
+
+/* -------------------- */
+
+/* corrente lado esquerdo */
+
+.svg2 {
+    position: fixed;
+    width: 34%;
+    left: 13%;
+    top: 41%;
+}
+
+.svg2A {
+    position: fixed;
+    width: 30%;
+    left: -14%;
+    top: 44%;
+}
+
+/* ------------------------ */
+
+/* Animação das correntes */
+
+.chain,
+.chain7 {
+    animation: .5s ease-in forwards like;
+}
+
+.chain1,
+.chain8 {
+    animation: 1.1s ease-in forwards like;
+}
+
+.chain2,
+.chain9 {
+    animation: 1.6s ease-in forwards like;
+}
+
+.chain3,
+.chain10 {
+    animation: 2.3s ease-in forwards like;
+}
+
+.chain4,
+.chain11 {
+    animation: 2.8s ease-in forwards like;
+}
+
+.chain5,
+.chain12 {
+    animation:  3.5s ease-in forwards like;
+}
+
+.chain6,
+.chain13 {
+    animation:  4.3s ease-in forwards like;
+}
+
+
+@keyframes like {
+
+    100% {
+        opacity: 0;
+    }
+    
+}
+
+/* -------------------------------------------------- *
