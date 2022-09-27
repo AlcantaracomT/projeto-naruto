@@ -19,6 +19,19 @@ const chain11 = document.getElementById("chain11");
 const chain12 = document.getElementById("chain12");
 const chain13 = document.getElementById("chain13");
 
+const chain14 = document.getElementById("chain14");
+const chain15 = document.getElementById("chain15");
+const chain16 = document.getElementById("chain16");
+const chain17 = document.getElementById("chain17");
+const chain18 = document.getElementById("chain18");
+const chain19 = document.getElementById("chain19");
+const chain20 = document.getElementById("chain20");
+const chain21 = document.getElementById("chain21");
+const chain22 = document.getElementById("chain22");
+const chain23 = document.getElementById("chain23");
+const chain24 = document.getElementById("chain24");
+const chain25 = document.getElementById("chain25");
+
 carta.addEventListener("click", () => {
         chain.classList.add("chain");
         chain1.classList.add("chain1");
@@ -34,5 +47,18 @@ carta.addEventListener("click", () => {
         chain11.classList.add("chain11");
         chain12.classList.add("chain12");
         chain13.classList.add("chain13");
+
+        chain14.classList.add("chain14");
+        chain15.classList.add("chain15");
+        chain16.classList.add("chain16");    
+        chain17.classList.add("chain17");
+        chain18.classList.add("chain18");
+        chain19.classList.add("chain19");
+        chain20.classList.add("chain20");
+        chain21.classList.add("chain21");
+        chain22.classList.add("chain22");
+        chain23.classList.add("chain23");
+        chain24.classList.add("chain24");
+        chain25.classList.add("chain25");
 });
 // -------------------------------------------------

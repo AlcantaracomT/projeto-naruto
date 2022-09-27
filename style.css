@@ -130,17 +130,29 @@ section {
 /* Animação das correntes */
 
 .chain,
-.chain7 {
+.chain7,
+.chain14,
+.chain17,
+.chain20,
+.chain23 {
     animation: .5s ease-in forwards like;
 }
 
 .chain1,
-.chain8 {
+.chain8,
+.chain15,
+.chain18,
+.chain21,
+.chain24 {
     animation: 1.1s ease-in forwards like;
 }
 
 .chain2,
-.chain9 {
+.chain9,
+.chain16,
+.chain19,
+.chain22,
+.chain25 {
     animation: 1.6s ease-in forwards like;
 }
 
