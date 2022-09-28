@@ -1,64 +1,36 @@
-window.addEventListener('play', () => {
-    document.getElementById("music").play();
+// animação das correntes -----------------------------
+
+const letter = document.querySelector(".imgSelamento");
+let chain = document.getElementsByClassName("chain");
+let chain1 = document.getElementsByClassName("chain1");
+let chain2 = document.getElementsByClassName("chain2");
+let chain3 = document.getElementsByClassName("chain3");
+let chain4 = document.getElementsByClassName("chain4");
+let chain5 = document.getElementsByClassName("chain5");
+let chain6 = document.getElementsByClassName("chain6");
+
+letter.addEventListener("click", function() {
+    for (let i = 0; i < chain.length; i++) {
+        chain[i].classList.add("chainA");
+    }
+    for (let i = 0; i < chain1.length; i++) {
+        chain1[i].classList.add("chain1A");
+    }
+    for (let i = 0; i < chain2.length; i++) {
+        chain2[i].classList.add("chain2A");
+    }
+    for (let i = 0; i < chain3.length; i++) {
+        chain3[i].classList.add("chain3A");
+    }
+    for (let i = 0; i < chain4.length; i++) {
+        chain4[i].classList.add("chain4A");
+    }
+    for (let i = 0; i < chain5.length; i++) {
+        chain5[i].classList.add("chain5A");
+    }
+    for (let i = 0; i < chain6.length; i++) {
+        chain6[i].classList.add("chain6A");
+    }
 });
 
-// animação
-const carta = document.querySelector(".imgSelamento");
-const chain = document.getElementById("chain");
-const chain1 = document.getElementById("chain1");
-const chain2 = document.getElementById("chain2");
-const chain3 = document.getElementById("chain3");
-const chain4 = document.getElementById("chain4");
-const chain5 = document.getElementById("chain5");
-const chain6 = document.getElementById("chain6");
-const chain7 = document.getElementById("chain7");
-const chain8 = document.getElementById("chain8");
-const chain9 = document.getElementById("chain9");
-const chain10 = document.getElementById("chain10");
-const chain11 = document.getElementById("chain11");
-const chain12 = document.getElementById("chain12");
-const chain13 = document.getElementById("chain13");
-
-const chain14 = document.getElementById("chain14");
-const chain15 = document.getElementById("chain15");
-const chain16 = document.getElementById("chain16");
-const chain17 = document.getElementById("chain17");
-const chain18 = document.getElementById("chain18");
-const chain19 = document.getElementById("chain19");
-const chain20 = document.getElementById("chain20");
-const chain21 = document.getElementById("chain21");
-const chain22 = document.getElementById("chain22");
-const chain23 = document.getElementById("chain23");
-const chain24 = document.getElementById("chain24");
-const chain25 = document.getElementById("chain25");
-
-carta.addEventListener("click", () => {
-        chain.classList.add("chain");
-        chain1.classList.add("chain1");
-        chain2.classList.add("chain2");
-        chain3.classList.add("chain3");
-        chain4.classList.add("chain4");
-        chain5.classList.add("chain5");
-        chain6.classList.add("chain6");
-        chain7.classList.add("chain7");
-        chain8.classList.add("chain8");
-        chain9.classList.add("chain9");
-        chain10.classList.add("chain10");
-        chain11.classList.add("chain11");
-        chain12.classList.add("chain12");
-        chain13.classList.add("chain13");
-
-        chain14.classList.add("chain14");
-        chain15.classList.add("chain15");
-        chain16.classList.add("chain16");    
-        chain17.classList.add("chain17");
-        chain18.classList.add("chain18");
-        chain19.classList.add("chain19");
-        chain20.classList.add("chain20");
-        chain21.classList.add("chain21");
-        chain22.classList.add("chain22");
-        chain23.classList.add("chain23");
-        chain24.classList.add("chain24");
-        chain25.classList.add("chain25");
-});
 // -------------------------------------------------
