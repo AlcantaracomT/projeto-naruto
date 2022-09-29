@@ -1,5 +1,4 @@
 // animação das correntes -----------------------------
-
 const letter = document.querySelector(".imgSelamento");
 let chain = document.getElementsByClassName("chain");
 let chain1 = document.getElementsByClassName("chain1");
@@ -8,6 +7,10 @@ let chain3 = document.getElementsByClassName("chain3");
 let chain4 = document.getElementsByClassName("chain4");
 let chain5 = document.getElementsByClassName("chain5");
 let chain6 = document.getElementsByClassName("chain6");
+let ball = document.getElementsByClassName("ballEffect");
+
+// animação do cordão de bolinhas
+let play = document.getElementsByClassName("ball");
 
 letter.addEventListener("click", function() {
     for (let i = 0; i < chain.length; i++) {
@@ -31,6 +34,15 @@ letter.addEventListener("click", function() {
     for (let i = 0; i < chain6.length; i++) {
         chain6[i].classList.add("chain6A");
     }
+
+    // animação colar de bolinhas
+    for (let i = 0; i < play.length; i++) {
+       play[i].classList.toggle("ballNo");
+    }
+    
+    // animação da carta
+    letter.classList.add("letterAnim")
+
 });
 
 // -------------------------------------------------
