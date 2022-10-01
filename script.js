@@ -11,8 +11,10 @@ let ball = document.getElementsByClassName("ballEffect");
 
 // animação do cordão de bolinhas
 let play = document.getElementsByClassName("ball");
+const efect = document.querySelector(".efect");
 
 letter.addEventListener("click", function() {
+
     for (let i = 0; i < chain.length; i++) {
         chain[i].classList.add("chainA");
     }
@@ -39,10 +41,17 @@ letter.addEventListener("click", function() {
     for (let i = 0; i < play.length; i++) {
        play[i].classList.toggle("ballNo");
     }
-    
+
     // animação da carta
     letter.classList.add("letterAnim")
+    
+    // efeito sonoro
+    efect.play();
+
+    
+   // abrir página
+  setTimeout(function(){
+    window.location.href = "https://www.netflix.com/br/title/80000603?"
+  }, 1000);
 
 });
-
-// -------------------------------------------------
